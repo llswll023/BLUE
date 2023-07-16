@@ -1,5 +1,6 @@
     <script src="<?= URLROOT; ?>/js/main.js"></script>
-    <script src="C:\xampp\htdocs\BLUE\src\views\include\bootstrap\js\jquery.min.js"></script>
-    <script src="C:\xampp\htdocs\BLUE\src\views\include\bootstrap\js\bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
 </body>
 </html>
