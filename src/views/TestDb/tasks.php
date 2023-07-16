@@ -11,7 +11,7 @@
      </div>
      <input type="submit" class="btn btn-primary" value="Add task">
     </form>
-    <br><br>
+    <br><br><br><br>
     <h3 class="fw-bold">[READ] Get all tasks:</h3>
     
     <ul>
@@ -22,14 +22,14 @@
                 <?php else : ?>
                     <?= $task->description; ?> &emsp;
                     <form action="<?= URLROOT; ?>/test/<?= $task->id; ?>/mark-done" method="post">
-                        <input type="submit" class="btn btn-info btn-sm" value="Mark as done">
+                        <input type="submit" class="btn btn-primary btn-sm" value="Mark as done">
                         
                     </form>
 
                 <?php endif; ?>
                 
                 <form action="<?= URLROOT; ?>/test/<?= $task->id; ?>/delete" method="post">
-                    <input type="submit" class="btn btn-danger btn-sm" value="Delete">
+                    <input type="submit" class="btn btn-secondary btn-sm" value="Delete">
                 </form>                
             </li>
         <?php endforeach; ?>
