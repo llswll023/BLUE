@@ -1,8 +1,8 @@
 <?php require_once APPROOT . '/src/views/include/header.php'; ?>
     <h1 class="p-3 mb-2 bg-info-subtle text-emphasis-inf text-center fw-bold">About Us</h1>
-    <div class="container row" style="float: none; margin:100 auto;">
+    <div class="container">
      <div class="row row-cols-2">
-      <div class="col-md-3" style="float: none; margin:0 auto;">
+      <div class="col">
         <div class="card" style="width: 18rem;">
             <img src="https://avatars.githubusercontent.com/u/38830620?v=4" class="card-img-top" alt="...">
             <div class="card-body">
@@ -10,7 +10,7 @@
             </div>
         </div>
        </div>
-      <div class="col-md-3" style="float: none; margin:0 auto;"> 
+      <div class="col"> 
         <div class="card" style="width: 18rem;">
             <img src="https://www.cau.ac.kr/attach/images/000076/symbols2021.png" class="card-img-top" alt="...">
             <div class="card-body">
