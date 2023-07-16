@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="<?= URLROOT;?>/public/css/style.css">
-    <title> <?= SITENAME; ?> </title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title> <?= SITENAME; ?> </title>
 </head>
 <body>
 	<nav>
