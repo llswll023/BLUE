@@ -1,5 +1,5 @@
 <?php require_once APPROOT . '/src/views/include/header.php'; ?>
-    <h1>Test Database</h1>
+    <h1 class="p-3 mb-2 bg-info-subtle text-emphasis-inf text-center">Test Database</h1>
     <h2>This page tests the connection to a database, using a typical "to-do list app" to perform CRUD operations</h2>
     <hr>
     <h3>[CREATE] Add new task</h3>
@@ -11,7 +11,7 @@
      </div>
      <input type="submit" class="btn btn-primary" value="Add task">
     </form>
-    <h3>[READ] Get all tasks:</h3>
+    <p><h3>[READ] Get all tasks:</h3></p>
 
     <ul>
         <?php foreach($data as $task): ?>
