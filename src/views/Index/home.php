@@ -1,5 +1,5 @@
 <?php require_once APPROOT . '/src/views/include/header.php'; ?>
-    <h1 class="p-3 mb-2 bg-info-subtle text-emphasis-inf text-center">Main Page</h1>
+    <h1 class="p-3 mb-2 bg-info-subtle text-emphasis-inf text-center fw-bold">Main Page</h1>
     <div id="carouselExampleCaptions" class="carousel slide">
      <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -11,7 +11,7 @@
         <img src="https://www.cau.ac.kr/cau/img/about/ui1_c.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
             <h5></h5>
-         <p>We are CAUtion Webhell BLUE team.</p>
+         <p class="fst-italic text-secondary">We are CAUtion Webhell BLUE team.</p>
         </div>
       </div>
      <div class="carousel-item">
@@ -38,5 +38,6 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <p class="fst-italic txt-center">This is homepage</p>
+    <br><br><br>
+    <p class="fst-italic text-center">This is homepage</p>
 <?php require_once APPROOT . '/src/views/include/footer.php'; ?>
