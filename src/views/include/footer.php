@@ -1,6 +1,5 @@
     <script src="<?= URLROOT; ?>/js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </body>
+    <script src="/public/bootstrap/js/jquery.min.js"></script>
+    <script src="/public/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
