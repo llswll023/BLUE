@@ -3,13 +3,13 @@
     <h2>This page tests the connection to a database, using a typical "to-do list app" to perform CRUD operations</h2>
     <hr>
     <h3>[CREATE] Add new task</h3>
-    <form>
+    <form action="<?= URLROOT; ?>/test/add-task" method="post">
      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Add new task</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="InputTask" class="form-label">Add new task</label>
+        <input type="text" class="form-control" name="new_task" id="exampleInputTask" aria-describedby="taskHelp">
         <div id="emailHelp" class="form-text">Write Description</div>
      </div>
-     <button type="submit" class="btn btn-primary">Submit</button>
+     <input type="submit" class="btn btn-primary" value="Add task">
     </form>
     <h3>[READ] Get all tasks:</h3>
 
