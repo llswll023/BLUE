@@ -21,12 +21,12 @@
                 <?php else : ?>
                     <?= $task->description; ?> &emsp;
                     <form action="<?= URLROOT; ?>/test/<?= $task->id; ?>/mark-done" method="post">
-                        <input type="submit" class="btn btn-primary" value="Mark as done">
+                        <input type="submit" class="btn btn-success btn-sm" value="Mark as done">
                     </form>
                 <?php endif; ?>
                 
                 <form action="<?= URLROOT; ?>/test/<?= $task->id; ?>/delete" method="post">
-                    <input type="submit" class="btn btn-primary" value="Delete">
+                    <input type="submit" class="btn btn-danger btn-sm" value="Delete">
                 </form>                
             </li>
         <?php endforeach; ?>
