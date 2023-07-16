@@ -17,7 +17,7 @@
                 <?php else : ?>
                     <?= $task->description; ?> &emsp;
                     <form action="<?= URLROOT; ?>/test/<?= $task->id; ?>/mark-done" method="post">
-                        <input type="submit" value="Mark as done">
+                        <button type="button" class="btn btn-primary">Mark as done</button>
                     </form>
                 <?php endif; ?>
                 
