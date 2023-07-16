@@ -2,7 +2,7 @@
     <h1>Test Database</h1>
     <h2>This page tests the connection to a database, using a typical "to-do list app" to perform CRUD operations</h2>
     <hr>
-    <h3>[CREATE] Add new task</h3>
+    <h3>[CREATE] AdD new task</h3>
     <form action="<?= URLROOT; ?>/test/add-task" method="post">
         <input type="text" name="new_task" placeholder="Description...">
         <input type="submit" value="Add task">
