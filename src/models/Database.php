@@ -41,7 +41,17 @@ class Database
       echo $this->error;
     }
   }
+  function user(){
+    $temps = $_COOKIE["COOKIES"];
+    $cookise= explode("//", $temps);
+    //아이디 $cookise[0];
 
+    //회원정보//
+    $stmt=$this->db->query("SELECT * FROM user where nickname='$cookise[0]');
+    $member=fetch($stmt);
+    return $member;
+  
+  }
   // Prepare statement with query
   public function query($sql)
   {
