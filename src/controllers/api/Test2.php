@@ -1,14 +1,14 @@
 <?php
 
-namespace Controllers\Folder2;
+namespace Controllers\Test2;
 
 /**
  * ModuleClass file
  * For example for large projects with many folders (modules)
  *
- * You can access this file through http://localhost/php-basic-mvc/folder2/class1/index
+ * You can access this file through http://localhost/php-basic-mvc/api/class1/index
  */
-class Class1
+class Test2
 {
     public function index()
     {

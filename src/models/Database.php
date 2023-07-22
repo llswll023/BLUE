@@ -47,7 +47,7 @@ class Database
     //아이디 $cookise[0];
 
     //회원정보//
-    $stmt=$this->db->query("SELECT * FROM user where nickname='$cookise[0]');
+    $stmt=$this->db->query("SELECT * FROM user where nickname='$cookise[0]'");
     $member=fetch($stmt);
     return $member;
   
