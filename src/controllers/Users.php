@@ -32,20 +32,20 @@ class Users
         }
     }
 
-    // // READ my data CHECK login
-    // private function getUsers($nickname, $pw): array
-    // {
-    //     $tmp = $this->userModel->selectMydata($_POST['nickname'], $_POST['pw']);
-    //     if($tmp==0) {
-    //         $save=$nickname."//".$pw;
-    //         setcookie("COOKIES", $save, time()+60*60*24, "/"); //24시간동안 유효
-    //         $this->view = "main.php";//로그인 성공
-    //     } else {
-    //         //$this->data = "로그인에 실패하였습니다.";
-    //         $this->view = "login.php";
-    //     }
+    // READ my data CHECK login
+    private function getUsers($nickname, $pw): array
+    {
+        $tmp = $this->userModel->selectMydata($_POST['nickname'], $_POST['pw']);
+        if($tmp==0) {
+            $save=$nickname."//".$pw;
+            setcookie("COOKIES", $save, time()+60*60*24, "/"); //24시간동안 유효
+            $this->view = "main.php";//로그인 성공
+        } else {
+            //$this->data = "로그인에 실패하였습니다.";
+            $this->view = "login.php";
+        }
 
-    // }
+    }
 
     // // // UPDATE task
     // // public function markDone($params)
